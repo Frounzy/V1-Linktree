@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins&display=swap");
+
+* {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    210.59deg,
+    #947bac 0%,
+
+    #514e61 21.53%,
+    #3f3544 75.52%
+  );
+}
+
+.header {
+  border-color: #fff;
+}
+
+.main {
+  margin: 60px 600px 278px;
+  flex-direction: column;
+
+  height: 100%;
+  border-color: #ff0000;
+  border-radius: 8px;
+  margin-top: 74px;
+}
+
+.butonlar ul a {
+  width: 400px;
+  align-items: center;
+  text-align: center;
+}
+
+.main .logo img {
+  width: 100px;
+  border-radius: 90px;
+  margin-left: 280px;
+  box-shadow: 0px 0px 20px #c78e8e;
+  border-color: #fff;
+}
+
+.main .logo {
+  justify-content: center;
+  align-items: center;
+  border-color: #ff8d8d;
+  z-index: 99;
+}
+
+.main .logo img:hover {
+  box-shadow: 0px 0px 20px #fff;
+}
+
+.main .butonlar ul button {
+  display: block;
+  justify-content: center;
+  background: var(--main-color);
+  border-radius: 11px;
+  color: #fff;
+  padding: 8px 120px;
+  font-size: var(--p-font);
+  margin-right: 20px;
+  transition: 0.5s;
+  justify-content: space-around;
+  border-color: #c5bece;
+  margin: 12px;
+  width: 75%;
+  margin-left: 50px;
+}
+
+.main .butonlar ul button:hover {
+  background-color: #fff;
+  color: #000000;
+}
+
+.main .yazi h3 {
+  color: #e9d4d4;
+  margin-left: 299px;
+  margin-top: 1px;
+  font-size: 15px;
+}
+
+.main .clan {
+  color: #fff;
+  margin-left: 260px;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.main .butonlar ul button i {
+  padding-top: 4px;
+  padding-right: 8px;
+}
+
+.main .yazi1 h2 {
+  font-size: 10px;
+  margin-left: 295px;
+  color: #f1e9e9;
+}
+
+.main .yazi1 h2 i {
+  color: #f1a1a1;
+  margin: 5px;
+}
+
+.main .clan button {
+  display: block;
+  justify-content: center;
+  background: linear-gradient(
+    210.59deg,
+    #a496b3 0%,
+
+    #b5b0d1 21.53%,
+    #a298a7 75.52%
+  );
+  border-radius: 11px;
+  color: #000000;
+  padding: 15px 20px;
+  font-size: var(--p-font);
+  margin-right: 20px;
+  transition: 0.5s;
+  justify-content: space-around;
+  border-color: #7b00ff;
+  margin: 12px;
+  width: 10%;
+  margin-top: 1px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 0px;
+}
+
+.main .clan {
+  display: flex;
+  margin-left: 260px;
+}
+
+.main .clan h3 span {
+  color: #e9d4d4;
+}
+
+.main .clan button a {
+  color: #000000;
+}
